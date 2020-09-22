@@ -1,0 +1,233 @@
+@media screen and (max-width: 1190px) {
+    .wrapper {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .testimonials__info {
+        width: 80%;
+    }
+    .contact__item_info {
+        padding: 30px 5px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .header_list {
+        display: none;
+    }
+    .header__nav_resp{
+        display: flex;
+    }
+    .contact__item_link{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .section_aboutUs_cont,
+    .section_aboutBouncy_par_cont,
+    .section_services_cont,
+    .section_ipressed_cont,
+    .secton__tem_cont,
+    .testimonials__cont_first{
+        flex-direction: column;
+    }
+    .section_aboutUs_cont_details,
+    .section_ipressed_cont_info,
+    .testimonials__info,
+    .price__cont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_cont_par,
+    .section_cont_par > p,
+    .section_aboutBouncy_par,
+    .section_services_graphic,
+    .section_services_graphic_cont_par,
+    .testimonials__info{
+        max-width: 100%;
+        width: 100%;
+    }
+    .section_aboutBouncy_cont{
+        align-items: center;
+    }
+    .section_cont_par,
+    .section_aboutBouncy_par p,
+    .section_ipressed_par,
+    .testimonials__info p{
+        text-align: center;
+    }
+    .section_aboutUs_cont_img,
+    .section_ipressed_cont_img,
+    .secton__tem_cont_item,
+    .testimonials__info,
+    .contact__item:last-child{
+        margin-top: 30px;
+    }
+    .section_services_graphic_cont{
+        width: calc(100% - 95px);
+    }
+    .section_portfolio_cont{
+        flex-wrap: wrap;
+    }
+    .section_portfolio_cont_item{
+        width: calc(50% - 5px);
+    }
+    .secton__tem_cont,
+    .news__cont,
+    .contact__cont{
+        padding: 0;
+    }
+    .secton__tem_cont_img,
+    .secton__tem_cont_item{
+        width: 50%;
+    }
+    .testimonials__cont{
+        padding: 30px 60px;
+    }
+    .price__cont,
+    .contact__cont{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 2.5%;
+        justify-content: center;
+    }
+    .price__cont_item,
+    .contact__item {
+        width: 45%;
+    }
+    .price__cont_item:nth-child(2),
+    .contact__item:nth-child(2){
+        margin-left: 10%;
+    }
+    .price__cont_item{
+        margin: 30px 0 0 0;
+    }
+    .section_services_svg{
+        width: 100%;
+    }
+    .section_portfolio_cont_img{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .section_portfolio_list{
+        display: none;
+    }
+    .section__portfolio_nav_resp{
+        display: flex;
+    }
+    .section_projects_cont_works{
+        flex-wrap: wrap;
+    }
+    .section_projects_cont_img50{
+        width: 100%;
+    }
+    .section_projects_cont_img25{
+        width: 50%;
+    }
+    .news{
+        padding: 30px 2.5%;
+    }
+}
+@media screen and (max-width: 550px) {
+    section{
+        padding: 40px 0;
+    }
+    .section_titles{
+        padding: 0 2.5%;
+    }
+    .secton__tem_cont_img,
+    .secton__tem_cont_item{
+        width: 80%;
+    }
+    .section_hello_title > h2 {
+        font-size: 25px;
+    }
+    .section_hello_cont > h3 ,
+    .section_cont_par p{
+        font-size: 12px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section_cont_par > p ,
+    .section_aboutBouncy_par p,
+    .section_services_graphic_cont_par p,
+    .section_ipressed_par,
+    .section_ipressed_h4,
+    .section_ipressed_creatice{
+        font-size: 13px;
+    }
+    .section_projects_footer_cont_title h3,
+    .news__cont_info_title,
+    .section_projects_cont_imgHover span{
+        font-size: 15px;
+    }
+    .section_services_cont {
+        margin-top: 30px;
+    }
+    .section_cont_par{
+        margin: 25px 0;
+    }
+    .subscribe__cont_form,
+    .section_projects_footer_cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe__btn,
+    .section_projects_footer_cont_but {
+        margin-top: 10px;
+    }
+    .price__cont_item,
+    .contact__item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .price__cont_item:nth-child(2),
+    .contact__item:nth-child(2),
+    .news .section_cont_par p{
+        margin: 0;
+    }
+    .section_projects_footer_cont_title h3,
+    .news .section_cont_par > p{
+        text-align: center !important;
+    }
+    .news__title{
+        padding: 0;
+        align-items: center;
+    }
+    .price__cont_item_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 425px) {
+    .section_portfolio_cont_item,
+    .subscribe__cont_form,
+    .form__cont_input{
+        width: 100%;
+    }
+    .section_cont_title h3{
+        text-align: center;
+    }
+    .testimonials__cont{
+        padding: 30px 10px;
+    }
+    .subscribe__email{
+        width: 80%;
+    }
+    .form__cont_inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .form__cont_input,
+    .form__cont_text{
+        margin-top: 10px;
+    }
+    .form__cont_input:first-child{
+        margin-top: 0;
+    }
+}
